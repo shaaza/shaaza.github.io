@@ -15,55 +15,6 @@ div#C {
 	margin: 0;
 }
 
-	
-	div#containerAB {
-		width: 820px;
-		margin-top: 20px;
-		margin-bottom:20px;
-		padding: 0;
-		margin-right: auto;
-		margin-left: auto;
-		white-space: nowrap;
-		direction: rtl;
-	}
-
-	div#A {
-		width: 500px;
-		background-color: skyblue;
-		display: inline-block;
-		margin-right: 10px;
-		white-space: nowrap;
-		direction: ltr;
-	}
-
-	div#B {
-		width: 300px;
-		background-color: hotpink;
-		display: inline-block;
-		vertical-align: top;
-		margin-left: 10px;
-		direction: ltr;
-	}
-
-	div#containerD {
-		margin-left: 10px;
-		margin-right: 10px;
-		padding-top: 20px;
-		padding-bottom: 20px;
-		white-space: nowrap;
-	}
-
-	div.D {
-		background-color: darkgreen;
-		width: 220px;
-		margin-left: 10px;
-		margin-right: 10px;
-		margin-top: 0px;
-		margin-bottom: 0px;
-		padding: 0px;
-		display: inline-block;
-
-	}
 
 
 @media (max-width: 450px) {
