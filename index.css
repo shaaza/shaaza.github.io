@@ -1,0 +1,149 @@
+body {
+		background-color: aliceblue;
+		padding: 0;
+		margin: 0;
+		height: 100%;
+		overflow: hidden;
+	}
+
+div#C {
+	background-color: grey;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+
+@media (max-width: 450px) {
+
+	div#containerAB {
+		width: 100%;
+		margin-bottom:10px;
+		padding: 0;
+
+	}
+
+	div#A {
+		width: 100%;
+		margin-top: 10px;
+		background-color: skyblue;
+	}
+
+	div#B {
+		width: 100%;
+		background-color: hotpink;
+		margin-top: 10px;
+	}
+
+	div#containerD {
+		margin-left: 5px;
+		margin-right: 5px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		white-space: nowrap;
+	}
+
+	div.D {
+		background-color: limegreen;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding: 0px;
+
+	}
+
+}
+
+
+@media (max-width: 840px) and (min-width: 450px) {
+
+	div#containerAB {
+
+		width: 100%;
+		margin-bottom:10px;
+		padding: 0;
+		text-align: center;
+
+	}
+
+	div#A {
+		width: 100%;
+		margin-top: 10px;
+		background-color: skyblue;
+	}
+
+	div#B {
+		width: 100%;
+		background-color: hotpink;
+		margin-top: 10px;
+	}
+
+	div#containerD {
+		white-space: nowrap;
+		display: table;
+		border-spacing: 20px;
+		width: 100%;
+	}
+
+	div.D {
+		background-color: yellow;
+		padding: 0px;
+		display: table-cell;
+
+	}
+
+}
+
+@media (min-width: 840px) {
+	
+	div#containerAB {
+		width: 820px;
+		margin-top: 20px;
+		margin-bottom:20px;
+		padding: 0;
+		margin-right: auto;
+		margin-left: auto;
+		white-space: nowrap;
+		direction: rtl;
+	}
+
+	div#A {
+		width: 500px;
+		background-color: skyblue;
+		display: inline-block;
+		margin-right: 10px;
+		white-space: nowrap;
+		direction: ltr;
+	}
+
+	div#B {
+		width: 300px;
+		background-color: hotpink;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 10px;
+		direction: ltr;
+	}
+
+	div#containerD {
+		margin-left: 10px;
+		margin-right: 10px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		white-space: nowrap;
+	}
+
+	div.D {
+		background-color: darkgreen;
+		width: 220px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding: 0px;
+		display: inline-block;
+
+	}
+}
