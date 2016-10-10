@@ -15,44 +15,6 @@ div#C {
 	margin: 0;
 }
 
-	div#containerAB {
-
-		width: 100%;
-		margin-bottom:10px;
-		padding: 0;
-		text-align: center;
-
-	}
-
-	div#A {
-		width: 100%;
-		margin-top: 10px;
-		background-color: skyblue;
-	}
-
-	div#B {
-		width: 100%;
-		background-color: hotpink;
-		margin-top: 10px;
-	}
-
-	div#containerD {
-		white-space: nowrap;
-		display: table;
-		border-spacing: 20px;
-		width: 100%;
-	}
-
-	div.D {
-		background-color: yellow;
-		padding: 0px;
-		display: table-cell;
-
-	}
-
-}
-
-@media (min-width: 840px) {
 	
 	div#containerAB {
 		width: 820px;
