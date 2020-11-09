@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
+    "title": "Initial Consultation",
+    "description": "New clients recieve a free initial discovery session.",
     "image": "images/features/noun_branding_1885335.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Technical Experience",
+    "description": "Our team consists of experienced software and product engineers.",
     "image": "images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Value Engineering",
+    "description": "We help you get maximum value for your money.",
     "image": "images/features/noun_3d modeling_1885342.svg"
   }
 ]
